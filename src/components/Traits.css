@@ -1,0 +1,23 @@
+.traits-listing{
+    list-style: none;
+    padding: 0px;
+    display: grid
+;
+    grid-template-columns: repeat(4, 1fr);  
+}
+
+.traits-listing h3{
+    text-align: center;
+}
+
+@media screen and (max-width: 1250px) {
+    .traits-listing {
+      grid-template-columns: repeat(2, 1fr);
+  }
+  }
+  
+  @media screen and (max-width: 575px) {
+    .traits-listing {
+      grid-template-columns: repeat(1, 1fr);
+  }
+  }
