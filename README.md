@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Athlete Analysis Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the **Athlete Analysis** website, a platform dedicated to showcasing the unique traits and abilities of elite athletes. This site is designed to inspire young athletes by highlighting the importance of training not only their bodies but also their minds, eyes, and game sense, while emphasizing the value of discipline and recovery.
 
-## Available Scripts
+🌐 [Visit the Website Here](https://ies.ywu.temporary.site/website_415e5485/)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## **Purpose**
+The Athlete Analysis website aims to:
+- Showcase how top athletes view, think, and approach their respective sports compared to others.
+- Inspire young athletes to develop traits like **Quiet Eye duration**, **peripheral vision**, **spatial-temporal processing**, and more.
+- Highlight the importance of **discipline, sleep, and mental resilience** in achieving peak performance.
+- Celebrate the unique qualities of generational athletes and provide users with engaging insights into their extraordinary capabilities.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## **Features**
+- **Athlete Profiles**: Explore detailed profiles of elite athletes like Stephen Curry and Serena Williams, including their physical stats, training regimens, and mental approaches.
+- **Interactive Visuals**:
+  - **Nature vs. Nurture Slider**: Engage with a dynamic slider to explore the balance between genetics and environment in athletic performance.
+- **Trait Descriptions**: Discover unique characteristics like Quiet Eye duration, visuomotor coordination, and spatial awareness, and understand their role in athletic success.
+- **Research Insights**: Dive into the science behind the extraordinary abilities of athletes, from genetic predispositions to environmental influences.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## **Technologies Used**
+- **Frontend**: React.js
+- **Routing**: React Router DOM
+- **Styling**: CSS with custom themes for a dark aesthetic
+- **Hosting**: HostGator (via FileZilla)
+- **Interactive Features**: JavaScript-driven sliders and graphs for dynamic content.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## **Content Highlights**
+- **Stephen Curry Profile**:
+  - Quiet Eye duration, neurocognitive training, and a day-in-the-life schedule.
+- **Serena Williams Profile**:
+  - Unique training methods, the balance of fun and discipline, and insights into recovery.
+- **Scientific Insights**:
+  - Explore the interplay between genetics and environment in athletic success.
+  - Learn why genetic testing for athletic performance has limitations.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## **Future Enhancements**
+- Add more athlete profiles based on user feedback and research.
+- Incorporate additional traits like flow state, mental toughness, and decision-making under pressure.
+- Enhance interactive visuals with charts, animations, and user-driven data exploration.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## **Contributing**
+We welcome contributions to enhance this project! Please feel free to submit pull requests or reach out for collaboration opportunities.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## **Acknowledgments**
+A special thanks to:
+- **Michael MacKelvie** for his video *Elite Athletes See a Different World*.
+- The creators of **Owaves** and other sources for providing insights into athlete routines and traits.
+- **Mastery Blueprint** for with his video *Were the Best Athletes Born to Be Great? | Genetics vs Environment in Sports*.
+- The creators of **TED-Ed** and their video on *How to enter flow state* 
+- **Timothy Gallwey** book on *The Inner Game of Tennis*
