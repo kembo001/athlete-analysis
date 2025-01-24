@@ -12,7 +12,7 @@ function AthleteDetails() {
   }
 
   return (
-    <div>
+    <div className="padding-intro">
         <div className="detail-box">
         <div className="image-container">
         <img

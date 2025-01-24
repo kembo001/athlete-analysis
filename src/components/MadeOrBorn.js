@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import StatBar from "./StatBar"; 
+import StatBar from "./MadeOrBornBar"; 
 
 function MadeOrBorn() {
     const [sliderValue, setSliderValue] = useState(50);

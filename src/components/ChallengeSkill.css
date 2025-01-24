@@ -1,0 +1,103 @@
+/* Container for the entire section */
+.challenge-skill-container {
+    text-align: center;
+    margin: 2rem;
+    color: #fff; /* Ensure text is white on dark background */
+    font-family: "IBM Plex Mono", serif; /* Matches your main font */
+  }
+  
+  /* Title styling */
+  .challenge-skill-container h2 {
+    font-family: "Press Start 2P", serif; /* Retro font for headings */
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: #00ff00; /* Retro green for headings */
+  }
+  
+  /* Instructions paragraph */
+  .challenge-skill-container p {
+    font-size: 1rem;
+    margin: 1rem auto;
+    max-width: 600px;
+    line-height: 1.5;
+  }
+  
+  /* Graph container */
+  .challenge-skill-graph {
+    position: relative;
+    height: 300px;
+    margin: 2rem auto;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background: radial-gradient(circle at center, #1a1a1a 0%, #0f0f0f 80%, #090909 100%);
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  /* Positioning for axis labels */
+  .labels {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* So dragging the dot isn't interrupted by labels */
+  }
+  
+  .label.top {
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 10%);
+  }
+  
+  .label.bottom {
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -10%);
+  }
+  
+  .label.left {
+    left: 0;
+    top: 50%;
+    transform: translate(10%, -50%);
+  }
+  
+  .label.right {
+    right: 0;
+    top: 50%;
+    transform: translate(-10%, -50%);
+  }
+  
+  /* Label text styling */
+  .label {
+    position: absolute;
+    font-family: "Press Start 2P", serif;
+    font-size: 0.8rem;
+    color: #00ff00; /* Retro green labels */
+    white-space: nowrap; /* Prevent line breaks */
+  }
+  
+  /* Dot that the user drags */
+  .draggable-dot {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-color: #00ff00;
+    border: 2px solid #1a1a1a;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    cursor: grab;
+    transition: transform 0.1s ease;
+  }
+  
+  .draggable-dot:active {
+    cursor: grabbing;
+    transform: translate(-50%, -50%) scale(1.1); /* Slight scale-up on click */
+  }
+  
+  /* Display the user's flow zone message */
+  .message {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #00ff00; /* Green text for messages */
+  }
+  

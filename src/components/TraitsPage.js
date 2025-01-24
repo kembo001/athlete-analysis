@@ -96,7 +96,7 @@ const traits = [
 function TraitsPage() {
   return (
     <div style={{ padding: "20px", margin: "0 auto" }}>
-      <h1>Unique Traits of Elite Athletes</h1>
+      <h2>Unique Traits of Elite Athletes</h2>
       <p>
         Explore the fascinating traits that enable elite athletes to perform at
         the highest level. These qualities are a blend of natural talent,
@@ -104,16 +104,8 @@ function TraitsPage() {
       </p>
       <ul className="traits-listing">
         {traits.map((trait, index) => (
-          <li
-            key={index}
-            style={{
-              marginBottom: "20px",
-              padding: "10px",
-              border: "1px solid #ddd",
-              borderRadius: "8px",
-              minHeight: "360px"
-            }}
-          >
+          <li className="trait-box"
+            key={index}>
             <h3>{trait.name}</h3>
             <p>{trait.description}</p>
             {trait.examples.length > 0 && (

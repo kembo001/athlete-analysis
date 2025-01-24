@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import athletes from "../data/athletes";
 
+
 function AthleteList() {
   return (
     <div className="athlete-list">

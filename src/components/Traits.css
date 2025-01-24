@@ -5,6 +5,13 @@
 ;
     grid-template-columns: repeat(4, 1fr);  
 }
+.trait-box{
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 8px;
+    min-height: 360px;
+}
 
 .traits-listing h3{
     text-align: center;
@@ -21,3 +28,5 @@
       grid-template-columns: repeat(1, 1fr);
   }
   }
+
+  
