@@ -33,6 +33,9 @@ function Navbar() {
         <li>
           <Link to="/sleep" onClick={() => setIsOpen(false)}>Sleep</Link>
         </li>
+        <li>
+          <Link to="/login" onClick={() => setIsOpen(false)}>Login/Sign Up</Link>
+        </li>
       </ul>
     </nav>
   );

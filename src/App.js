@@ -9,6 +9,9 @@ import FlowState from "./components/FlowState";
 import Sleep from "./components/Sleep";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Login from "./components/Login";
+import ProtectedRoute from "./ProtectedRoute";
+import Dashboard from "./components/Dashboard";
 
 function App() {
   return (
@@ -24,6 +27,15 @@ function App() {
           <Route path="/made-or-born" element={<MadeOrBorn />} />
           <Route path="/flow-state" element={<FlowState />} />
           <Route path="/sleep" element={<Sleep />} />
+          <Route path="/login" element={<Login />} />
+  <Route 
+    path="/my-dashboard" 
+    element={
+      <ProtectedRoute>
+        <Dashboard />
+      </ProtectedRoute>
+    } 
+  />
         </Routes>
         <Footer />
       </div>
